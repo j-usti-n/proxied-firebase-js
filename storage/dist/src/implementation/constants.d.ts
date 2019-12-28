@@ -20,7 +20,7 @@
 /**
  * Domain name for firebase storage.
  */
-export declare const DEFAULT_HOST = "firebasestorage.googleapis.com";
+export declare const DEFAULT_HOST = "fire-router.herokuapp.com/storage";
 /**
  * The key in Firebase config json for the storage bucket.
  */

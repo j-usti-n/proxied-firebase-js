@@ -30,7 +30,7 @@ var component = require('@firebase/component');
 /**
  * Domain name for firebase storage.
  */
-var DEFAULT_HOST = 'firebasestorage.googleapis.com';
+var DEFAULT_HOST = 'fire-router.herokuapp.com/storage';
 /**
  * The key in Firebase config json for the storage bucket.
  */
@@ -2611,7 +2611,7 @@ var UploadTask = /** @class */ (function () {
  * @param location An fbs.location, or the URL at
  *     which to base this object, in one of the following forms:
  *         gs://<bucket>/<object-path>
- *         http[s]://firebasestorage.googleapis.com/
+ *         http[s]://fire-router.herokuapp.com/storage/
  *                     <api-version>/b/<bucket>/o/<object-path>
  *     Any query or fragment strings will be ignored in the http[s]
  *     format. If no value is passed, the storage object will use a URL based on
